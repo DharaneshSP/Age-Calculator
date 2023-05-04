@@ -1,3 +1,3 @@
 # Age-Calculator
 
-#It's an simple Application to calculate the age of person.
+It's an simple Application to calculate the age of person.
