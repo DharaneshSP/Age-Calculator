@@ -2,7 +2,7 @@ function run(){
 
 let cd=new Date().getDate();
 let cm=new Date().getMonth();
-let cy=new Date().getFullYear()
+let cy=new Date().getFullYear();
 
 cm=cm+1;
 
