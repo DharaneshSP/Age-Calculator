@@ -65,20 +65,17 @@ else {
             else{
                 days+=x[k];
             };
-        };
-}
+         };
+     }
     
     else{
         for(let v=1;v<=12;v++){
             days+=x[v];
         };
     }
-        };  
+ };  
 
-
-
-
-    //conversion
+//conversion
 
 let day=days;
 
@@ -93,18 +90,12 @@ let week1=Math.round(day/7);
 let month=Math.round(day/30);
 let hours=day*24;
 
-
-
-
     document.getElementById("show").innerHTML=days;
     document.getElementById("showdays").innerHTML=`${day}${(day<=1)?" day":" days"}`;
     document.getElementById("showweeks").innerHTML=`${week1}${(week1<=1)?" week":" weeks"}`;
     document.getElementById("showmonths").innerHTML=`${month}${(month<=1)?" month":" months"}`
     document.getElementById("showhours").innerHTML=`${hours} hours`;
 
-
-
-    
 }  
 
 };
