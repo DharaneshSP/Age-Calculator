@@ -1,5 +1,7 @@
 function run(){
 
+    
+    
 let cd=new Date().getDate();
 let cm=new Date().getMonth();
 let cy=new Date().getFullYear();
@@ -141,7 +143,18 @@ let hours=day*24;
 
 
 
-const ourmonths={0:"January",1:"Febraury",2:"March",3:"April",4:"May",5:"June",6:"July",7:"Jugust",8:"September",9:"October",10:"November",11:"December"};
+const ourmonths={0:"January",
+                 1:"Febraury",
+                 2:"March",
+                 3:"April",
+                 4:"May",
+                 5:"June",
+                 6:"July",
+                 7:"August",
+                 8:"September",
+                 9:"October",
+                 10:"November",
+                 11:"December"};
 
 
 
